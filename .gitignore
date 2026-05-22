@@ -1,0 +1,72 @@
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# Variables de entorno
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Modelos entrenados
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Datos pesados
+datasets/
+data/
+*.csv
+*.xlsx
+*.zip
+*.tar
+*.gz
+
+# SQLite
+*.sqlite3
+*.db
+
+# Cache
+.cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# PyTorch Lightning
+lightning_logs/
+
+# TensorBoard
+runs/
+
+# Archivos del sistema
+Thumbs.db
