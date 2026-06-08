@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  modeloia:
+    build: .
+    container_name: modeloia
+    volumes:
+      - ./models:/app/models:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    tty: true
+    # ports: # El script actual es interactivo; habilitar si expones un servidor
+    #   - "8000:8000"
